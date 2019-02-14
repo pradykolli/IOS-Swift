@@ -8,11 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        convertITBTN.layer.cornerRadius = 5
     }
 
     @IBOutlet weak var yearsTF: UITextField!
@@ -29,14 +30,26 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var secondsLbL: UILabel!
     
+    @IBOutlet weak var convertITBTN: UIButton!
+
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        convertIt("Please give me an A")
+        return true
+    }
+    
     @IBAction func convertIt(_ sender: Any) {
-        let years = Int(yearsTF.text!)!
-        let months = years * 12
-        let days = years * 365
-        let seconds = days * 24 * 60
-        monthLBL.text = String(months)
-        daysLBL.text = String(days)
-        secondsLbL.text = String(seconds)
+        if let years:Int = Int(yearsTF.text!){
+            let months = years * 12
+            let days = years * 365
+            let seconds = days * 24 * 60
+            monthLBL.text = String(months)
+            daysLBL.text = String(days)
+            secondsLbL.text = String(seconds)
+        }
+        else{
+            print("Hey, Thats an error")
+        }
     }
 }
 

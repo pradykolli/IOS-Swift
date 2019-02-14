@@ -88,7 +88,10 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="c55-k7-eoP"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Time Converter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PjM-R3-jhJ">
                                 <rect key="frame" x="16" y="44" width="343" height="42"/>
@@ -136,6 +139,7 @@
                         <outlet property="Days" destination="HTy-XL-GIr" id="vhI-Ob-WAr"/>
                         <outlet property="Months" destination="zIa-HN-O77" id="OmJ-B7-zdF"/>
                         <outlet property="Seconds" destination="YSt-Rb-wW5" id="4y0-S3-2gk"/>
+                        <outlet property="convertITBTN" destination="k24-Lj-w32" id="kh3-R4-VOU"/>
                         <outlet property="daysLBL" destination="o2Q-zt-zNv" id="ngu-5c-tLJ"/>
                         <outlet property="monthLBL" destination="6Dj-rm-fap" id="q20-2t-o7Y"/>
                         <outlet property="secondsLbL" destination="r5c-so-47A" id="hig-eS-auX"/>
