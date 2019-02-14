@@ -13,6 +13,7 @@
 		A4FC3C172215D2AA007193DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FC3C152215D2AA007193DA /* Main.storyboard */; };
 		A4FC3C192215D2AB007193DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4FC3C182215D2AB007193DA /* Assets.xcassets */; };
 		A4FC3C1C2215D2AB007193DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FC3C1A2215D2AB007193DA /* LaunchScreen.storyboard */; };
+		A4FC3C242215D3DF007193DA /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FC3C232215D3DF007193DA /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A4FC3C182215D2AB007193DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4FC3C1B2215D2AB007193DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4FC3C1D2215D2AB007193DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4FC3C232215D3DF007193DA /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				A4FC3C182215D2AB007193DA /* Assets.xcassets */,
 				A4FC3C1A2215D2AB007193DA /* LaunchScreen.storyboard */,
 				A4FC3C1D2215D2AB007193DA /* Info.plist */,
+				A4FC3C232215D3DF007193DA /* ThirdViewController.swift */,
 			);
 			path = myTabbedApp;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				A4FC3C142215D2AA007193DA /* SecondViewController.swift in Sources */,
 				A4FC3C102215D2AA007193DA /* AppDelegate.swift in Sources */,
+				A4FC3C242215D3DF007193DA /* ThirdViewController.swift in Sources */,
 				A4FC3C122215D2AA007193DA /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
