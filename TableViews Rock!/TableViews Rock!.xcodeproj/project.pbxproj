@@ -13,6 +13,7 @@
 		A4604869221C62A9006C6ACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4604867221C62A9006C6ACC /* Main.storyboard */; };
 		A460486B221C62AA006C6ACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A460486A221C62AA006C6ACC /* Assets.xcassets */; };
 		A460486E221C62AA006C6ACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A460486C221C62AA006C6ACC /* LaunchScreen.storyboard */; };
+		A4B8E6D4221F015600716985 /* TouristSitesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B8E6D3221F015600716985 /* TouristSitesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A460486A221C62AA006C6ACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A460486D221C62AA006C6ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A460486F221C62AA006C6ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4B8E6D3221F015600716985 /* TouristSitesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristSitesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				A460486A221C62AA006C6ACC /* Assets.xcassets */,
 				A460486C221C62AA006C6ACC /* LaunchScreen.storyboard */,
 				A460486F221C62AA006C6ACC /* Info.plist */,
+				A4B8E6D3221F015600716985 /* TouristSitesTableViewController.swift */,
 			);
 			path = "TableViews Rock!";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4604866221C62A9006C6ACC /* SecondViewController.swift in Sources */,
+				A4B8E6D4221F015600716985 /* TouristSitesTableViewController.swift in Sources */,
 				A4604862221C62A9006C6ACC /* AppDelegate.swift in Sources */,
 				A4604864221C62A9006C6ACC /* FirstViewController.swift in Sources */,
 			);

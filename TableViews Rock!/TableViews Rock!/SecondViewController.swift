@@ -9,7 +9,7 @@
 import UIKit
 
 class SecondViewController: UIViewController, UITableViewDataSource, UITableViewDelegate  {
-    var sevenWonders = ["TajMahal","","","",""]
+    var sevenWonders = ["TajMahal","Pyrimids","Eiffel Tower","Great Wall of China","Christ the Redeemer Statue","The Roman Colosseum","Cannadian museum"]
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if section == 0{
             
