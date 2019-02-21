@@ -36,7 +36,8 @@ var sevenWonders = ["TajMahal","Pyrimids","Eiffel Tower","Great Wall of China","
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "touristSites", for: indexPath)
         cell.textLabel?.text = sevenWonders[indexPath.row]
-
+        let siteNameLBL = cell.viewWithTag(100) as! UILabel
+        siteNameLBL.text! = sevenWonders[indexPath.row]
         return cell
     }
     
