@@ -38,3 +38,13 @@ class MyViewController : UIViewController {
 }
 // Present the view controller in the Live View window
 PlaygroundPage.current.liveView = MyViewController()
+
+var sum = 0.0
+let data = dataTF.text!
+
+let dataParts = data.components(separatedBy: " ") //["32", "64"]
+for numstr in dataParts{
+    let num = Double(numstr)!
+    sum += num
+}
+let averafe = sum / Double(dataParts.count)
